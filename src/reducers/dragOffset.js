@@ -34,7 +34,6 @@ export default function dragOffset(state = initialState, action) {
       clientOffset: action.clientOffset
     });
   case END_DRAG:
-  case DROP:
     return initialState;
   default:
     return state;
